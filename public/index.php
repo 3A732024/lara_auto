@@ -21,3 +21,6 @@ $log->pushHandler(new StreamHandler('log/your.log', Logger::WARNING));
 $log->warning('Foo');
 $log->error('Bar');
 
+use Carbon\Carbon;
+
+printf("Now: %s", Carbon::now());
