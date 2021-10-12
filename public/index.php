@@ -10,7 +10,7 @@ $vincent= new Hello\Someone('Vincent');
 $mary= new \Demo\Hello\Someone('Mary');
 $john= new Demo\Hello\Someone('John');
 echo "<br>";
-i
+
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
